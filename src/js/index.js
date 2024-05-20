@@ -41,6 +41,8 @@ const fiveNumbers = (numbers) => {
 
 fiveNumbers([5, 4, 8, 2, 1]);
 
+
+//Crea una función que reciba un array vacío y lo devuelva con 3 números aleatorios entre 0 y 100.
 const emptyNumber = (numbers) => {
   numbers.push(Math.floor(Math.random) * 101);
   numbers.push(Math.floor(Math.random) * 101);
@@ -48,3 +50,9 @@ const emptyNumber = (numbers) => {
   console.log(numbers);
 };
 emptyNumber([]);
+
+//Crea una función que reciba un array de 5 números. Dentro de esa función crea dos arrays vacíos llamados even (pares) y odd (impares), después multiplica cada uno de los números del array recibido por un número aleatorio entre 1 y 10, si el resultado es par, guárdalo en el array de pares, si es impar, en el array de impares, al final, imprime los 3 arrays por consola.
+
+//Crea una función llamada dniLetter que recibirá un número de DNI sin la letra. Dentro de esa función pon este array ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'] La letra del DNI se calcula a través del resto de dividir el número de DNI entre 23, ese número te dará la posición del array donde se encuentra la letra correspondiente a ese DNI. Imprime por consola el DNI con su letra correspondiente.
+
+//Crea una función que reciba un array con 3 palabras, debes imprimir por consola un array que contenga la inicial y la última letra de cada palabra en mayúsculas, es decir, si nuestra función recibiera un array con ['hola', 'adios', 'gato'] deberá imprimir por consola ['H', 'A', 'A', 'S', 'G', 'O']
